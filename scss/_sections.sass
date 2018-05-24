@@ -2,46 +2,68 @@
     img
         max-width: 200px
 
+
 .main-section
     background: #383838
-    background: url('../images/home-background4.jpg') no-repeat center center
+    background: url('../images/home-background3.jpg') no-repeat center center
     background-size: cover
     text-align: center
     .main-logo
         margin-bottom: 20px
+        img
+            width: 180px
+        
     p
-        color: #383838
-        font-size: 1.1rem
-        font-weight: 500
+        color: #000
+        font-size: 1rem
+        font-weight: 400
+        line-height: 1.8rem
         font-style: italic
-        // @include tx-shadow()
+
 
 .post-home
     .content
         p
             text-align: justify
 
+@media (max-width: 991px)
+    .post-home .content p
+        margin-bottom: 25px
+
 .services-section
-    background-image: url(../images/slider2.jpg)
+    background-image: url(../images/services-background.jpg)
     background-attachment: fixed
     background-repeat: no-repeat
     background-size: cover
     h2
+        position: relative
         color: #f9f9f9
         margin-bottom: 20px
         text-align: left
+        padding-left: 50px
+        .icon-title
+            position: absolute
+            left: 0px
+            color: #ccc
+    hr
+        border-top: 1px solid #f1f1f126
     p
         text-align: justify
 
 .company-section
-    .image
-        img
-            max-width: 100%
+    .image img
+        max-width: 100%
     h2
         margin-bottom: 20px
         color: #383838
     p
         text-align: justify
+
+@media (max-width: 991px)
+    .company-section
+        h2
+            margin-top: 25px
+
 .clients-section
     padding: 60px 0 20px
     background-color: #f9f9f9
@@ -51,7 +73,9 @@
     .owl-dots
         display: none
 
-
+@media (max-width: 991px)
+    .clients-section
+        padding: 25px 0
 // .clients-slider img
     
 //     height: auto
@@ -65,7 +89,31 @@
         color: #383838
     .btn-send
         background: #383838
-        border: 0 
-
+        border: 0
+        font-size: 1rem
+        height: 38px
+    .form-group
+        input
+            height: 38px
+        textarea
+            height: 100px
 .contact-data
-    padding-top: 50px
+    padding-top: 46px
+
+@media (max-width: 1300px)
+    .contact-data
+        .inner
+            background-color: rgba(#ffffff,.5)
+            padding: 20px
+
+@media (max-width: 768px)
+    .contact
+        padding-top: 20px
+        h2
+            margin-bottom: 20px
+    .contact-data 
+        padding-top: 0
+        .inner
+            padding: 20px
+            text-align: center
+        

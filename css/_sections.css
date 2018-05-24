@@ -1,0 +1,98 @@
+.brand img {
+  max-width: 200px; }
+
+.main-section {
+  background: #383838;
+  background: url("../images/home-background.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center; }
+  .main-section .main-logo {
+    margin-bottom: 20px; }
+  .main-section p {
+    color: #383838;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic; }
+
+.post-home .content p {
+  text-align: justify; }
+
+@media (max-width: 991px) {
+  .post-home .content p {
+    margin-bottom: 25px; } }
+
+.services-section {
+  background-image: url(../images/services-background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .services-section h2 {
+    position: relative;
+    color: #f9f9f9;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 50px; }
+    .services-section h2 .icon-title {
+      position: absolute;
+      left: 0px;
+      color: #ccc; }
+  .services-section hr {
+    border-top: 1px solid #f1f1f126; }
+  .services-section p {
+    text-align: justify; }
+
+.company-section .image img {
+  max-width: 100%; }
+
+.company-section h2 {
+  margin-bottom: 20px;
+  color: #383838; }
+
+.company-section p {
+  text-align: justify; }
+
+@media (max-width: 991px) {
+  .company-section h2 {
+    margin-top: 25px; } }
+
+.clients-section {
+  padding: 60px 0 20px;
+  background-color: #f9f9f9; }
+  .clients-section h2 {
+    margin-bottom: 20px;
+    color: #383838; }
+  .clients-section .owl-dots {
+    display: none; }
+
+@media (max-width: 991px) {
+  .clients-section {
+    padding: 25px 0; } }
+
+.contactc {
+  background-image: url(../images/contact-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .contactc h2 {
+    color: #383838; }
+  .contactc .btn-send {
+    background: #383838;
+    border: 0; }
+
+.contact-data {
+  padding-top: 46px; }
+
+@media (max-width: 1300px) {
+  .contact-data .inner {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px; } }
+
+@media (max-width: 768px) {
+  .contact {
+    padding-top: 20px; }
+    .contact h2 {
+      margin-bottom: 20px; }
+  .contact-data {
+    padding-top: 0; }
+    .contact-data .inner {
+      padding: 20px;
+      text-align: center; } }
