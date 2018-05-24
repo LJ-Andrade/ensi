@@ -1,0 +1,59 @@
+// Carousel 
+
+// .carousel
+//     .carousel-inner 
+//         position: relative
+//         img
+//             min-height: 100%
+// .carousel,.item,.active
+//     height: 100%
+// .carousel-inner
+//     height: 100%
+
+// Bottons 
+
+.btn
+    display: inline-block
+    font-weight: normal
+    line-height: 1.25
+    text-align: center
+    white-space: nowrap
+    vertical-align: middle
+    cursor: pointer
+    user-select: none
+    padding: 4px 12px
+    font-size: 1.5rem
+    border-radius: 0
+    transition: all 0.2s ease-in-out
+
+.btnMain
+    background-color: $color
+    color: #fff
+    @include transition(0.2s)
+    &:hover
+        background-color: $color-hover
+        color: #fff
+
+.btnSecondary
+    background-color: transparent
+    border: 1px solid $color
+    color: #383838
+    @include transition(0.2s)
+    &:hover
+        border: 1px solid $color
+        background-color: $color-hover
+        color: #fff
+
+
+// PRE-LOADER
+
+.preloader
+    background: #fff
+    height: 100%
+    width: 100%
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 9999999
+    @include flex-center
+
