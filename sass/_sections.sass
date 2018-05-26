@@ -51,6 +51,7 @@
         text-align: justify
 
 .company-section
+    padding: 50px 10px
     .image img
         max-width: 100%
     h2
@@ -63,6 +64,17 @@
     .company-section
         h2
             margin-top: 25px
+
+.company-top-banner
+    background-image: url(../images/top-banner1.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+        
+
+.clients-top-banner
+    background-image: url(../images/top-banner2.jpg)
+    background-repeat: no-repeat
+    background-size: cover
 
 .clients-section
     padding: 60px 0 20px
@@ -97,14 +109,31 @@
             height: 38px
         textarea
             height: 100px
-.contact-data
-    padding-top: 46px
+    .logo
+        text-align: center
+        margin-bottom: 20px
+
+.contact-single
+    padding-top: 65px
+
+
+@media (min-width: 991px)
+    .contact
+        .col-right
+            padding-top: 50px
+
+.contact-inner
+    .contact-data
+        padding-top: 52px
+        .inner
+            font-size: 1rem
+            min-height: 295px
+            color: #000
+            background-color: rgba(#ffffff,.5)
+            padding: 20px
 
 @media (max-width: 1300px)
     .contact-data
-        .inner
-            background-color: rgba(#ffffff,.5)
-            padding: 20px
 
 @media (max-width: 768px)
     .contact

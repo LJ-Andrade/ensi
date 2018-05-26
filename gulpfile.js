@@ -3,10 +3,10 @@ sass = require('gulp-sass'),
 autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', ()=> 
-    gulp.src('./scss/*.sass')
+    gulp.src('./sass/*.sass')
     .pipe(sass({
         outputStyle: 'compressed', 
-        sourceComments: false // Comments in the css where the property is in sass
+        sourceComments: false
     }))
     .pipe(autoprefixer({
         browsers: ['last 2 versions'],
@@ -15,5 +15,5 @@ gulp.task('sass', ()=>
      .pipe(gulp.dest('./css'))
 );
 gulp.task('default', () => {
-    gulp.watch('./scss/*.sass', ['sass'])
+    gulp.watch('./sass/*.sass', ['sass'])
 });

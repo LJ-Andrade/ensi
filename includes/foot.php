@@ -1,13 +1,14 @@
-		</body>
-		<!-- Vendors Js -->
-		<script src="vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
-		<script src="vendor/bootstrap/bootstrap.min.js"></script>
-		<script src="vendor/one-page-scroll/scrolloverflow.min.js"></script>
-		<script src="vendor/one-page-scroll/fullpage.scrollOverflowReset.limited.min.js"></script>
-		<script src="vendor/one-page-scroll/fullpage.extensions.min.js"></script>
-
-		
-		
+        <!-- Js -->
+        <script src="vendor/js/vendor/jquery-2.1.1.min.js"></script>
+        <script src="vendor/boostrap/js/theter.min.js"></script>
+        <script src="vendor/boostrap/js/bootstrap.min.js"></script>
+        <script src="vendor/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
-		<script src="js/page.js"></script> 
+        <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendor/js/jquery.validate.min.js"></script>
+        <script src="vendor/js/jquery.form.js"></script>
+        <script src="vendor/js/jquery.nav.js"></script>
+        <script src="vendor/js/wow.min.js"></script>
+		<script src="js/page.js"></script>
+    </body>
 </html>

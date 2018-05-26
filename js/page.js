@@ -5,17 +5,13 @@ $(document).ready(function($) {
 });
 
 $(document).ready(function(){
-
-
      new WOW().init();
-
-
+     
      $('#top-nav').onePageNav({
         currentClass: 'current',
         changeHash: true,
         scrollSpeed: 1200
     });
-
      
     //animated header class
     $(window).scroll(function() {    
