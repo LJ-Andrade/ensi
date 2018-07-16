@@ -15,7 +15,7 @@ Navigation
                     <a class="nav-link" href="index.php">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#servicios">NUESTROS SERVICIOS</a>
+                    <a class="nav-link" href="nuestros-servicios.php">NUESTROS SERVICIOS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="quienes-somos.php">QUIENES SOMOS</a>
