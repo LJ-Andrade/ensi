@@ -3,7 +3,7 @@
         <section class="top-banner clients-top-banner">
             <div class="container-fluid">
                 <div class="row inner">
-                    <img src="images/logo-t.png" alt="">
+                    <img src="images/logo-t2.png" alt="">
                 </div>
             </div>
         </section>

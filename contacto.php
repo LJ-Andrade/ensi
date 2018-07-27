@@ -6,12 +6,12 @@ Contact
 <section id="contacto" class="section contact contact-single">
     <div class="container">
 		<div class="logo">
-			<img src="images/logo-t.png" alt="">
+			<img src="images/logo-t2.png" alt="">
 		</div>
 		<hr>	
         <div class="row contact-inner">
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <h2>CONTACTENOS</h2>
+                <h2 style="color:#6F1717;">CONTACTENOS</h2>
                 <div class="form-group">
                     <form action="#" method="post" id="contact-form">
                         <div class="input-field">
@@ -39,14 +39,14 @@ Contact
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 contact-data">
                 <div class="inner">
-                    <div class="item"><ion-icon name="mail"></ion-icon> <b>E-Mail:</b></div>	
-                    <div class="item">info@ensi.com.ar</div>	
+                    <div class="item"><ion-icon name="mail" style="color:#6F1717;"></ion-icon> <b>E-Mail:</b></div>	
+                    <div class="item">info@ensi-comex.com.ar</div>	
 					<hr>
-                    <div class="item"><ion-icon name="call"></ion-icon> <b>Teléfonos:</b></div>	
-                    <div class="item">4545-4545 || 15-5421-4587</div>	
+                    <div class="item"><ion-icon name="call" style="color:#6F1717;"></ion-icon> <b>Teléfono:</b></div>	
+                    <div class="item">011 4331-9293</div>
 					<hr>
-                    <div class="item"><ion-icon class="icon" name="pin"></ion-icon> <b>Dirección:</b></div>
-                    <div class="item">Av. Calle 1234</div>
+                    <div class="item"><ion-icon class="icon" name="pin" style="color:#6F1717;"></ion-icon> <b>Dirección:</b></div>
+                    <div class="item">Perú 590, 11° C</div>
                     <div class="item">Buenos Aires, Argentina</div>
                 </div>
             </div>
