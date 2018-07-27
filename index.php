@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="main-logo">
-				<img src="images/logo-t2.png" alt="">
+				<img src="images/logo-t.png" alt="">
 			</div>
 			<p class="wow fadeInDown" data-wow-delay="0.3s" data-wow-duration=".2s">
 				"Nuestra ilusión y la razón de existir es servir a nuestros clientes <br>

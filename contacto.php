@@ -6,12 +6,12 @@ Contact
 <section id="contacto" class="section contact contact-single">
     <div class="container">
 		<div class="logo">
-			<img src="images/logo-t2.png" alt="">
+			<img src="images/logo-t.png" alt="">
 		</div>
 		<hr>	
         <div class="row contact-inner">
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <h2 style="color:#6F1717;">CONTACTENOS</h2>
+                <h2>CONTACTENOS</h2>
                 <div class="form-group">
                     <form action="#" method="post" id="contact-form">
                         <div class="input-field">
