@@ -3,7 +3,7 @@
     <section class="top-banner clients-top-banner">
         <div class="container-fluid">
             <div class="row inner">
-                <img src="images/logo-t2.png" alt="">
+                <img src="images/logo-t.png" alt="">
             </div>
         </div>
     </section>
@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow text-center wow fadeInUp" data-wow-delay="0.3s">
-                    <h2><ion-icon class="icon-title" name="globe"></ion-icon> NUESTROS SERVICIOS</h2>
+                    <h2><ion-icon class="icon-title" name="globe" style="color:#6F1717;"></ion-icon> NUESTROS SERVICIOS</h2>
                     <hr>
                     <p>
                         Somos <b>"ENSI SRL"</b> - "Empresa de Negocios y Servicios Internacionales". <br><br>
