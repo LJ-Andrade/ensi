@@ -7,7 +7,7 @@
         <title>ENSI</title>
         <meta name="description" content="Nuestra ilusión y la razón de existir es servir a nuestros clientes <br>
 		a cada instante de nuestro Trabajo y Situaciones Operativas  <br>
-		y Generales del Comercio Exterior  y  Aduana">
+		y Generales del Comercio Exterior y Aduana">
 		<meta name="author" content="Vimana Studio">
         <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
         <!-- Vendors -->

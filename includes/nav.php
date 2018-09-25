@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Navigation
 ==================== -->
 <div class="container">
@@ -18,10 +18,10 @@ Navigation
                     <a class="nav-link" href="nuestros-servicios.php">NUESTROS SERVICIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="quienes-somos.php">QUIENES SOMOS</a>
+                    <a class="nav-link" href="rubros-especializados.php">RUBROS ESPECIALIZADOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="nuestros-clientes.php">NUESTROS CLIENTES</a>
+                    <a class="nav-link" href="quienes-somos.php">QUIENES SOMOS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contacto.php">CONTACTO</a>

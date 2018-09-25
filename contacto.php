@@ -1,14 +1,14 @@
 <?php include('includes/head.php') ?>
 
-<!-- 
-Contact 
+<!--
+Contact
 ==================== -->
 <section id="contacto" class="section contact contact-single">
     <div class="container">
 		<div class="logo">
 			<img src="images/logo-t.png" alt="">
 		</div>
-		<hr>	
+		<hr>
         <div class="row contact-inner">
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h2>CONTACTENOS</h2>
@@ -39,14 +39,14 @@ Contact
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 contact-data">
                 <div class="inner">
-                    <div class="item"><ion-icon name="mail" style="color:#6F1717;"></ion-icon> <b>E-Mail:</b></div>	
-                    <div class="item">info@ensi-comex.com.ar</div>	
+                    <div class="item"><ion-icon name="mail" style="color:#6F1717;"></ion-icon> <b>E-Mail:</b></div>
+                    <div class="item">info@ensi-comex.com.ar</div>
 					<hr>
-                    <div class="item"><ion-icon name="call" style="color:#6F1717;"></ion-icon> <b>Teléfono:</b></div>	
-                    <div class="item">011 4331-9293</div>
+                    <div class="item"><ion-icon name="call" style="color:#6F1717;"></ion-icon> <b>Teléfono:</b></div>
+                    <div class="item">+54 11 4331 9293</div>
 					<hr>
                     <div class="item"><ion-icon class="icon" name="pin" style="color:#6F1717;"></ion-icon> <b>Dirección:</b></div>
-                    <div class="item">Perú 590, 11° C</div>
+                    <div class="item">Perú 590, Piso 11°, Dpto. “C”</div>
                     <div class="item">Buenos Aires, Argentina</div>
                 </div>
             </div>
