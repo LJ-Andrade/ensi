@@ -22,15 +22,14 @@
 					</div>
 					<div class="col-md-8">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non, 
-							fuga aspernatur soluta at eveniet ab minima quo inventore tempore illo. 
-							Pariatur maxime deserunt doloribus nam dolore, repellendus asperiores. Nulla?
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non, 
-							fuga aspernatur soluta at eveniet ab minima quo inventore tempore illo. 
-							Pariatur maxime deserunt doloribus nam dolore, repellendus asperiores. Nulla?
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non, 
-							fuga aspernatur soluta at eveniet ab minima quo inventore tempore illo. 
-							Pariatur maxime deserunt doloribus nam dolore, repellendus asperiores. Nulla?
+							Somos “ENSI SRL” – “Empresa de Negocios y Servicios Internacionales”, somos una Empresa Dedicada al Comercio Exterior y varios de sus conexos, en donde realizamos Despachos de Aduana, 
+							Logística Internacional y Nacional desde y hacia cualquier lugar del Mundo, Seguros a las Cargas, etc. 
+							Nuestro Fuerte está dado por brindar un Servicio muy Personalizado, en el que nos adecuamos de manera muy firme a los Requisitos de cada Cliente. 
+							Con más de 20 años de trayectoria en la actividad, ofrecemos a nuestros clientes un eficaz servicio de comercio exterior, cuya principal característica 
+							es la atención personalizada de equipos especializados, tanto en Exportación como en Importación.
+							<br>
+							En el transporte internacional, ofrecemos un amplio servicio de cargas marítimas, aéreas y terrestres, con destacados agentes en las principales ciudades del mundo.
+							Esto hace de ENSI, una Empresa Muy Confiable  en la prestación de un servicio integral de Comercio Internacional.
 						</p>
 					</div>
 				</div>
