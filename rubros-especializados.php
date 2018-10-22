@@ -1,6 +1,12 @@
 <?php include('includes/head.php') ?>
 
-        <section class="top-banner clients-top-banner">
+        <style>
+
+            .service-top-banner{background-image:url(images/top-banner3.jpg);background-repeat:no-repeat;background-size:cover}
+
+        </style>
+
+        <section class="top-banner service-top-banner">
             <div class="container-fluid">
                 <div class="row inner">
                     <img src="images/logo-t.png" alt="">

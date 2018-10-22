@@ -9,7 +9,7 @@
         </section>
 
 
-		<!-- 
+		<!--
         Company
         ==================== -->
 		<section id="quienessomos" class="service section company-section">
@@ -17,15 +17,15 @@
 				<div class="row wow fadeIn" data-wow-delay="0.3s">
 					<h2>QUIENES SOMOS</h2>
 					<hr>
-					<div class="col-md-4 image">
-						<img src="images/company.jpg" alt="">
+					<div class="col-md-6 image">
+						<img src="images/ensi2.jpg" alt="">
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-6">
 						<p>
-							Somos “ENSI SRL” – “Empresa de Negocios y Servicios Internacionales”, somos una Empresa Dedicada al Comercio Exterior y varios de sus conexos, en donde realizamos Despachos de Aduana, 
-							Logística Internacional y Nacional desde y hacia cualquier lugar del Mundo, Seguros a las Cargas, etc. 
-							Nuestro Fuerte está dado por brindar un Servicio muy Personalizado, en el que nos adecuamos de manera muy firme a los Requisitos de cada Cliente. 
-							Con más de 20 años de trayectoria en la actividad, ofrecemos a nuestros clientes un eficaz servicio de comercio exterior, cuya principal característica 
+							Somos “ENSI SRL” – “Empresa de Negocios y Servicios Internacionales”, somos una Empresa Dedicada al Comercio Exterior y varios de sus conexos, en donde realizamos Despachos de Aduana,
+							Logística Internacional y Nacional desde y hacia cualquier lugar del Mundo, Seguros a las Cargas, etc.
+							Nuestro Fuerte está dado por brindar un Servicio muy Personalizado, en el que nos adecuamos de manera muy firme a los Requisitos de cada Cliente.
+							Con más de 20 años de trayectoria en la actividad, ofrecemos a nuestros clientes un eficaz servicio de comercio exterior, cuya principal característica
 							es la atención personalizada de equipos especializados, tanto en Exportación como en Importación.
 							<br>
 							En el transporte internacional, ofrecemos un amplio servicio de cargas marítimas, aéreas y terrestres, con destacados agentes en las principales ciudades del mundo.
@@ -35,17 +35,6 @@
 				</div>
 			</div><!-- .container close -->
 		</section><!-- #service close -->
-        <?php include('includes/contact.php'); ?>
-        <!-- <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <p><a href="https://vimana.studio">Vimana Studio</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer> -->
+    <?php include('includes/contact.php'); ?>
 
 		<?php include('includes/foot.php') ?>
