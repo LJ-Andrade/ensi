@@ -1,13 +1,13 @@
 <?php include('includes/head.php') ?>
 
 <style media="screen">
-  .service-image1{ height:20em;background-size:cover;background: url(https://www.abc.net.au/news/image/6725328-3x2-700x467.jpg) no-repeat center center;}
-  .service-image2{ height:20em;background-size:cover;background: url(images/top-banner2.jpg) no-repeat center center;}
-  .service-image3{ height:20em;background-size:cover;background: url(https://ecauk.com/files/2016/11/AdobeStock_117639587.jpg) no-repeat center center;}
+  .service-image1{ box-shadow:5px 14px 30px -3px rgba(0,0,0,0.55); height:20em;background-size:cover;background: url(https://www.abc.net.au/news/image/6725328-3x2-700x467.jpg) no-repeat center center;}
+  .service-image2{ box-shadow:5px 14px 30px -3px rgba(0,0,0,0.55); height:20em;background-size:cover;background: url(images/top-banner2.jpg) no-repeat center center;}
+  .service-image3{ box-shadow:5px 14px 30px -3px rgba(0,0,0,0.55); height:20em;background-size:cover;background: url(https://ecauk.com/files/2016/11/AdobeStock_117639587.jpg) no-repeat center center;}
   .service-group{padding-top:5em;}
   .service-container{ text-align:left; }
-  .service-item{font-size:1.1em;}
-  .service-icon{font-size:3em;vertical-align: middle;}
+  .service-item{font-size:1.1em;text-shadow:1px 1px 3px rgba(0,0,0,0.55);}
+  .service-icon{font-size:3em;vertical-align: middle;text-shadow:1px 1px 3px rgba(153,32,32,0.55);}
   .icon-col{ padding: 0px;}
 </style>
 
@@ -46,16 +46,16 @@ Home
 		<div class="row">
 			<div class="col-md-7 col-sm-12 wow fadeInLeft">
 				<div class="content">
-					<h3 style="color:#6F1717;font-family:'Open Sans', sans-serif;">En nombre de <b>ENSI</b>, les damos la más cordial bienvenida a nuestra página web.</h3>
+					<h3 style="color:#6F1717;font-family:'Open Sans', sans-serif;text-shadow:1px 1px 3px rgba(153,32,32,0.55);">En nombre de <b>ENSI</b>, les damos la más cordial bienvenida a nuestra página web.</h3>
 					<div class="sub-heading">
 					</div>
-					<p>
+					<p style="text-shadow:1px 1px 3px rgba(0,0,0,0.55);">
 						Siendo testigo de la trayectoria de <b>ENSI</b>, desde sus orígenes y hasta nuestra edad adulta.	<br>
 						Pero el objetivo primordial de este medio de comunicación es plasmar los valores que nos respaldan, el compromiso de atender
 						a cada uno de nuestros clientes de la mejor manera existente, teniendo en cuenta su especialidad y sus mecanismos de trabajo
 						hacia el <b>COMEX.</b><br><br>
 					</p>
-					<p>En 1997 comenzamos con un objetivo muy sencillo <br><i> "Servicio y Soporte a las Empresas que nos contrataran, y no les fallamos".</i></p>
+					<p style="text-shadow:1px 1px 3px rgba(0,0,0,0.55);">En 1997 comenzamos con un objetivo muy sencillo: <br><i> "Servicio y Soporte a las Empresas que nos contrataran"</i>, y no les fallamos.</p>
 				</div>
 			</div>
 			<div class="col-md-5 col-sm-12 wow fadeInRight" data-wow-delay="0.3s">
@@ -70,7 +70,7 @@ Home
 			</div>
 			<div class="col-md-12">
 				<hr>
-				<p><b>
+				<p style="text-shadow:1px 1px 3px rgba(0,0,0,0.55);"><b>
 					Hoy somos una empresa adulta, comprometida con el crecimiento de nuestros Clientes, de nuestro país y su gente, basándonos
 					en nuestro compromiso, nuestra ética, nuestro profesionalismo  y en el capital humano capaz para lograrlo.</b>
 				</p>
@@ -85,7 +85,7 @@ Clients
 <section id="clientes" class="service section clients-section">
 	<div class="container wow fadeIn" data-wow-delay="0.3s">
 		<!-- <div class="row"> -->
-			<h2>NUESTROS SERVICIOS</h2>
+			<h2 style="">NUESTROS SERVICIOS</h2>
       <br>
 			<!-- <div class="owl-carousel owl-theme clients-slider"> -->
 				<!-- <div class="item"><img src="images/clients/1.png" alt=""></div>
