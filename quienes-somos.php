@@ -18,10 +18,10 @@
 					<h2>QUIENES SOMOS</h2>
 					<hr>
 					<div class="col-md-6 image">
-						<img src="images/ensi2.jpg" alt="">
+						<img src="images/ensi4.jpeg" alt="" style="box-shadow:5px 14px 30px -3px rgba(0,0,0,0.55)">
 					</div>
 					<div class="col-md-6">
-						<p>
+						<p style="text-shadow:1px 1px 3px rgba(0,0,0,0.55);">
 							Somos “ENSI SRL” – “Empresa de Negocios y Servicios Internacionales”, somos una Empresa Dedicada al Comercio Exterior y varios de sus conexos, en donde realizamos Despachos de Aduana,
 							Logística Internacional y Nacional desde y hacia cualquier lugar del Mundo, Seguros a las Cargas, etc.
 							Nuestro Fuerte está dado por brindar un Servicio muy Personalizado, en el que nos adecuamos de manera muy firme a los Requisitos de cada Cliente.
@@ -37,4 +37,4 @@
 		</section><!-- #service close -->
     <?php include('includes/contact.php'); ?>
 
-		<?php include('includes/foot.php') ?>
+	<?php include('includes/foot.php') ?>
