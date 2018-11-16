@@ -27,16 +27,16 @@ Contact
                 <div class="form-group">
                     <form action="#" method="post" id="contact-form">
                         <div class="input-field">
-                            <input type="text" class="form-control" placeholder="Nombre / Empresa" name="name">
+                            <input type="text" class="form-control" placeholder="Nombre / Empresa" name="name" id="name">
                         </div>
                         <div class="input-field">
-                            <input type="email" class="form-control" placeholder="Dirección E-Mail" name="email">
+                            <input type="email" class="form-control" placeholder="Dirección E-Mail" name="email" id="email">
                         </div>
                         <div class="input-field">
-                            <input type="email" class="form-control" placeholder="Teléfono" name="phone">
+                            <input type="text" class="form-control" placeholder="Teléfono" name="phone" id="phone">
                         </div>
                         <div class="input-field">
-                            <textarea class="form-control" placeholder="Mensaje" rows="5" name="message" style="height: 170px;"></textarea>
+                            <textarea class="form-control" placeholder="Mensaje" rows="5" name="message" id="message" style="height: 170px;"></textarea>
                         </div>
                         <button class="btn btn-send" type="submit">ENVIAR</button>
                     </form>

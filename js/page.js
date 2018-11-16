@@ -6,15 +6,15 @@ $(document).ready(function($) {
 
 $(document).ready(function(){
      new WOW().init();
-     
+
      $('#top-nav').onePageNav({
         currentClass: 'current',
         changeHash: true,
         scrollSpeed: 1200
     });
-     
+
     //animated header class
-    $(window).scroll(function() {    
+    $(window).scroll(function() {
     var scroll = $(window).scrollTop();
      //console.log(scroll);
     if (scroll > 200) {
@@ -64,7 +64,7 @@ $(document).ready(function(){
             },
             message: {
                 required: true,
-                minlength: 2
+                minlength: 15
             },
             email: {
                 required: true,
@@ -73,14 +73,17 @@ $(document).ready(function(){
         },
         messages: {
             name: {
-                required: "Please enter Your Name",
-                minlength: "Your name must consist of at least 2 characters"
+                required: "Ingrese su nombre",
+                minlength: "Su nombre debe contener al menos 2 caracteres"
             },
             message: {
-                required: "Please Write Something",
-                minlength: "Your message must consist of at least 2 characters"
+                required: "Ingrese un mensaje",
+                minlength: "Su mensaje debe contener al menos 15 caracteres"
             },
-            email: "Please enter a valid email address"
+            email: {
+                required: "Ingrese un email",
+                email: "Ingrese un email válido"
+            }
         },
         submitHandler: function(form) {
             $(form).ajaxSubmit({
@@ -105,10 +108,3 @@ $(document).ready(function(){
     });
 
 });
-
-
-
-
-
-
-
