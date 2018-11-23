@@ -21,7 +21,7 @@ Contact
                   <div class="item">+54 11 4331 9293</div>
                   <hr>
                   <div class="item"><ion-icon name="logo-whatsapp" style="color:#6F1717;"></ion-icon> <b>Whatsapp:</b></div>
-                  <div class="item">+54 11 4331 9293</div>
+                  <div class="item">+54 11 5308 3131</div>
                   <hr>
                   <div class="item"><ion-icon class="icon" name="pin" style="color:#6F1717;"></ion-icon> <b>Dirección:</b></div>
                   <div class="item">Perú 590, Piso 11°, Dpto. “C”</div>
