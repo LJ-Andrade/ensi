@@ -83,6 +83,9 @@ $(document).ready(function(){
             email: {
                 required: "Ingrese un email",
                 email: "Ingrese un email válido"
+            },
+            phone: {
+
             }
         },
         submitHandler: function(form) {
@@ -92,16 +95,17 @@ $(document).ready(function(){
                 url:"mail.php",
                 success: function() {
                     $('#contact-form :input').attr('disabled', 'disabled');
-                    $('#contact-form').fadeTo( "slow", 0.15, function() {
+                    $('#contact-form').fadeTo( "slow", 0, function() {
                         $(this).find(':input').attr('disabled', 'disabled');
                         $(this).find('label').css('cursor','default');
+                        $( '#contact-col' ).hide();
                         $('#success').fadeIn();
+
                     });
                 },
                 error: function() {
-                    $('#contact-form').fadeTo( "slow", 0.15, function() {
-                        $('#error').fadeIn();
-                    });
+                    $( '#contact-col' ).hide();
+                    $('#error').fadeIn();
                 }
             });
         }

@@ -1,14 +1,57 @@
 <?php
 
-    use PHPMailer\PHPMailer\PHPMailer;
+    // require("class.phpmailer.php");
+    // require 'PHPMailerAutoload.php';
+    //
+    // $mail = new PHPMailer();
+    //
+    // $mail->IsSMTP();
+    //
+    // $mail->SMTPAuth = true;
+    //
+    // $mail->SMTPDebug = 2;
+    //
+    // $mail->Host = "mailhub.interman.com.ar";
+    //
+    // $mail->Username = "ensiweb@ensi-comex.com.ar";
+    //
+    // $mail->Password = "P0l1m3r0s";
+    //
+    // $mail->Port = 25;
+    //
+    // $mail->From = "ensiweb@ensi-comex.com.ar";
+    //
+    // $mail->FromName = "Web Ensi";
+    //
+    // $mail->AddAddress("ricardot@ifono.net");
+    //
+    // $mail->Subject = "Test";
+    //
+    // $body = "Correo de prueba desde la web de Ensi" ;
+    //
+    // $mail->Body = $body;
+    //
+    // $exito = $mail->Send();
+    //
+    // if ($exito){ echo "El correo fue enviado correctamente."; }
+    //
+    // else { echo "Hubo un problema. Contacta a un administrador."; }
 
-    use PHPMailer\PHPMailer\Exception;
+    ///////////////////////////////////////////////////////////
 
-    require 'vendor/PHPMailer/src/Exception.php';
+    // use PHPMailer\PHPMailer\PHPMailer;
+    //
+    // use PHPMailer\PHPMailer\Exception;
+    //
+    // require 'vendor/PHPMailer/src/Exception.php';
+    //
+    // require 'vendor/PHPMailer/src/PHPMailer.php';
+    //
+    // require 'vendor/PHPMailer/src/SMTP.php';
 
-    require 'vendor/PHPMailer/src/PHPMailer.php';
+    require( 'class.phpmailer.php' );
 
-    require 'vendor/PHPMailer/src/SMTP.php';
+    require 'PHPMailerAutoload.php';
 
     $name = addslashes( $_POST[ 'name' ] );
 
@@ -18,7 +61,7 @@
 
     $message = addslashes( $_POST[ 'message' ] );
 
-    if ( preg_match("/^[a-zA-Z ]*$/", $name) && filter_var( $email, FILTER_VALIDATE_EMAIL ) && $message )
+    if ( $name && filter_var( $email, FILTER_VALIDATE_EMAIL ) && $message )
     {
 
         $body = 'Nombre: <b>' . $name . '</b><br>' .
@@ -28,31 +71,53 @@
                 'Este mensaje ha sido generado automaticamente desde el sitio web';
 
 
-        $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-        try {
+        // Passing 'true' enables exceptions
+        $mail = new PHPMailer();
+
+        try
+        {
             //Server settings
-            // $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-            $mail->isSMTP();                                      // Set mailer to use SMTP
-            $mail->Host = 'mailhub.interman.com.ar';            // Specify main and backup SMTP servers
-            $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'ensiweb ';                           // SMTP username
-            $mail->Password = 'P0l1m3r0s';                           // SMTP password
-            $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-            $mail->Port = 587;                                    // TCP port to connect to
+
+            // Enable verbose debug output
+            // $mail->SMTPDebug = 2;
+
+            // Set mailer to use SMTP
+            $mail->isSMTP();
+
+            // Specify main and backup SMTP servers
+            $mail->Host = 'mailhub.interman.com.ar';
+
+            // Enable SMTP authentication
+            $mail->SMTPAuth = true;
+
+            // SMTP username
+            $mail->Username = 'ensiweb@ensi-comex.com.ar';
+
+            // SMTP password
+            $mail->Password = 'P0l1m3r0s';
+
+            // Enable TLS encryption, 'ssl' also accepted
+            // $mail->SMTPSecure = 'tls';
+
+            // TCP port to connect to
+            $mail->Port = 25;
 
             //Recipients
-            $mail->setFrom( $email, $name );
-            $mail->addAddress( 'info@ensi-comex.com.ar', 'ENSI S.R.L.');     // Add a recipient
+            $mail->setFrom( 'ensiweb@ensi-comex.com.ar', $name );
+
+            // Add a recipient
+            $mail->addAddress( 'info@ensi-comex.com.ar' );
+
             $mail->addReplyTo( $email, $name );
+
             // $mail->addCC( 'cc@example.com' );
+
             $mail->addBCC( 'romero.m.alejandro@gmail.com' );
 
-            //Attachments
-            // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-            // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
             //Content
-            $mail->isHTML(true);                                  // Set email format to HTML
+
+            // Set email format to HTML
+            $mail->isHTML( true );
 
             $mail->Subject = 'Contacto desde sitio web';
 
@@ -61,12 +126,18 @@
             $mail->AltBody = $body;
 
             $mail->send();
+
             echo 'Message has been sent';
-        } catch (Exception $e) {
+
+        } catch ( Exception $e ) {
 
             echo 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo;
 
         }
+
+    }else{
+
+        echo "Wrong information";
 
     }
 

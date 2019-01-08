@@ -49,7 +49,7 @@
                     </div>
                     <div class="row img-and-text-items  wow fadeIn">
                         <div class="col-md-6 text">
-                            <h1>COLORANTES  <br> y  TINTAS</h1>
+                            <h1>COLORANTES  <br> Y  TINTAS</h1>
                         </div>
                         <div class="col-md-6 image">
                             <img src="images/rubros/colorantes-y-tintas.jpg">
@@ -92,7 +92,7 @@
                             <img src="images/rubros/maquinarias-y-repuestos.jpg">
                         </div>
                         <div class="col-md-6 text">
-                            <h1>MAQUINARIAS <br> y  REPUESTOS</h1>
+                            <h1>MAQUINARIAS <br> Y  REPUESTOS</h1>
                         </div>
                     </div>
                     <div class="row img-and-text-items  wow fadeIn">
@@ -113,7 +113,7 @@
                     </div>
                     <div class="row img-and-text-items  wow fadeIn">
                         <div class="col-md-6 text">
-                            <h1>CENTROS DE ESQUÍ  <br> y  RECREACIÓN DE MONTAÑA</h1>
+                            <h1>CENTROS DE ESQUÍ  <br> Y  RECREACIÓN DE MONTAÑA</h1>
                         </div>
                         <div class="col-md-6 image">
                             <img src="images/rubros/centros-de-esqui-y-recreacion-de-montana.jpg">

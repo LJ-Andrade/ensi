@@ -15,7 +15,7 @@ Contact
           <div class="col-xs-12 col-sm-12 col-md-4 contact-data" style="padding-top:0px;">
               <div class="inner">
                   <div class="item"><ion-icon name="mail" style="color:#6F1717;"></ion-icon> <b>E-Mail:</b></div>
-                  <div class="item">info@ensi-comex.com.ar</div>
+                  <div class="item"><a href="mailto:info@ensi-comex.com.ar" style="color:inherit;text-decoration:none;">info@ensi-comex.com.ar</a></div>
                   <hr>
                   <div class="item"><ion-icon name="call" style="color:#6F1717;"></ion-icon> <b>Teléfono:</b></div>
                   <div class="item">+54 11 4331 9293</div>
@@ -29,7 +29,7 @@ Contact
                   <div class="item">Buenos Aires, Argentina</div>
               </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4">
+          <div class="col-xs-12 col-sm-12 col-md-4" id="contact-col">
               <div class="form-group">
                   <form action="#" method="post" id="contact-form">
                       <div class="input-field">
@@ -39,20 +39,25 @@ Contact
                           <input type="email" class="form-control" placeholder="Dirección E-Mail" name="email">
                       </div>
                       <div class="input-field">
-                          <input type="email" class="form-control" placeholder="Teléfono" name="phone">
+                          <input type="text" class="form-control" placeholder="Teléfono" name="phone">
                       </div>
                       <div class="input-field">
                           <textarea class="form-control" placeholder="Mensaje" rows="5" name="message" style="height: 170px;"></textarea>
                       </div>
                       <button class="btn btn-send" type="submit">ENVIAR</button>
                   </form>
-
-                  <div id="success">
-                      <p>Mensaje enviado. Le responderemos a la brevedad</p>
-                  </div>
-                  <div id="error">
-                      <p>Error al enviar el mensaje. Contactesé directamente con nosotros</p>
-                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 contact-data" id="success">
+              <div class="inner" style="text-align:center;background-color: rgba(255, 255, 255, 0.3 );">
+                  <h1><ion-icon class="icon" name="checkmark-circle-outline" style="color:rgb( 19, 150, 19 );"></ion-icon></h1>
+                  <h4><strong><br>Mensaje enviado<br><br>Le responderemos a la brevedad</strong></h4>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 contact-data" id="error">
+              <div class="inner" style="text-align:center;background-color: rgba( 255, 255, 255, 0.3 );">
+                  <h1><ion-icon class="icon" name="close" style="color:rgb( 226, 36, 15 );"></ion-icon></h1>
+                  <h4><strong><br>Error al enviar el mensaje<br><br>Contáctese directamente con nosotros</strong></h4>
               </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 contact-data" style="padding-top:0px;">
